@@ -22,7 +22,7 @@ jobs:
           distribution: 'temurin'
 
       - name: Build with Gradle
-        run: ./gradlew clean shadowJar
+        run: lukaness/ForkLoader-mod/gradlew clean shadowJar
         # If your wrapper doesn't exist, add a step to generate it, or run gradle directly:
         # run: gradle clean shadowJar
 
